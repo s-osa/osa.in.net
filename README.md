@@ -1,0 +1,3 @@
+# https://osa.in.net
+
+![](https://codebuild.us-east-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoib0dkSWhtT3RvdXBuWFRMcytDUmppam5Hc3VrQWtvZ1JYUElqWnhKUEtQeXA4RmV5TEY4TUU1NmhTWFkzelZaWVp4WllpVkNhZkN0Y2Vzb3J0UWFsWWpBPSIsIml2UGFyYW1ldGVyU3BlYyI6IjV2akxnalhFc3J3VGJJRlAiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=master)
