@@ -1,0 +1,9 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - bundle install
+  build:
+    commands:
+      - bundle exec middleman build
