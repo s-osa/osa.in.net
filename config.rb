@@ -37,3 +37,17 @@ configure :build do
   # Minify Javascript on build
   # activate :minify_javascript
 end
+
+activate :s3_sync do |s3_sync|
+  s3_sync.bucket                     = 'osa.in.net'
+  s3_sync.region                     = 'ap-northeast-1'
+  s3_sync.delete                     = true
+  s3_sync.after_build                = false
+  s3_sync.prefer_gzip                = true
+  s3_sync.acl                        = 'public-read'
+  s3_sync.encryption                 = false
+  s3_sync.prefix                     = ''
+  s3_sync.version_bucket             = false
+  s3_sync.index_document             = 'index.html'
+  # s3_sync.error_document             = '404.html'
+end
