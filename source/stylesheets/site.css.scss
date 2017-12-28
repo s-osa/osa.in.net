@@ -1,2 +1,36 @@
 @charset "utf-8";
 
+body {
+  background-color: #eeeeee;
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, sans-serif;
+  line-height: 1.5em;
+}
+
+h1.site-name {
+  text-align: center;
+}
+
+h2 {
+  margin: 10px;
+}
+
+a {
+  &:link { color: inherit; }
+  &:visited { color: inherit; }
+  &:hover { color: inherit; }
+  &:active { color: inherit; }
+}
+
+.wrapper {
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.block {
+  background-color: #ffffff;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
