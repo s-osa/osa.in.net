@@ -1,10 +1,13 @@
 ###
 # Page options, layouts, aliases and proxies
 ###
+#
+ignore '**/.gitkeep'
 
 # Per-page layout changes:
 #
 # With no layout
+
 page '/*.xml',  layout: false
 page '/*.json', layout: false
 page '/*.txt',  layout: false

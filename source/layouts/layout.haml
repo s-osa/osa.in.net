@@ -3,10 +3,8 @@
 %html
   %head
     %meta{ charset: 'utf-8' }
-    %title
-      = current_page.data.title || 'osa.in.net'
+    %title= current_page.data.title || 'osa.in.net'
     = stylesheet_link_tag :site
-    = javascript_include_tag :all
 
   %body{ class: "#{page_classes}" }
     = yield
