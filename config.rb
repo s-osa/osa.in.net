@@ -19,6 +19,8 @@ page '/*.txt',  layout: false
 # General configuration
 
 activate :directory_indexes
+page '/404.html', directory_index: false
+
 activate :livereload
 
 ###
@@ -52,5 +54,5 @@ activate :s3_sync do |s3_sync|
   s3_sync.prefix                     = ''
   s3_sync.version_bucket             = false
   s3_sync.index_document             = 'index.html'
-  s3_sync.error_document             = '404'
+  s3_sync.error_document             = '404.html'
 end
