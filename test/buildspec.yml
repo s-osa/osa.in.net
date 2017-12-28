@@ -9,3 +9,6 @@ phases:
   build:
     commands:
       - bundle exec middleman build
+  post_build:
+    commands:
+      - bundle exec middleman s3_sync
