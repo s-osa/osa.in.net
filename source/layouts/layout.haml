@@ -2,6 +2,8 @@
 
 %html
   %head
+    - if build?
+      = partial 'layouts/google_analytics'
     %meta{ charset: 'utf-8' }
     %title= current_page.data.title || 'osa.in.net'
     = stylesheet_link_tag :site
