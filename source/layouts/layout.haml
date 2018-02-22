@@ -12,6 +12,7 @@
   %body{ class: "#{page_classes}" }
     .wrapper
       .block
-        %h1.site-name osa.in.net
+        %h1.site-name
+          %a{ href: '/' } osa.in.net
 
       = yield

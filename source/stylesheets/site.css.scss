@@ -5,11 +5,14 @@ body {
   margin: 0;
   padding: 0;
   font-family: system-ui, sans-serif;
-  line-height: 1.5em;
+  line-height: 1.6em;
 }
 
 h1.site-name {
   text-align: center;
+  a {
+    text-decoration: none;
+  }
 }
 
 h2 {
