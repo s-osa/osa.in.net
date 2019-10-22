@@ -1,0 +1,21 @@
+{
+  "name": "osa.in.net",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/s-osa/osa.in.net.git",
+  "author": "OSA Shunsuke <hhelibebcnofnenamg@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@material-ui/core": "^4.5.1",
+    "@material-ui/icons": "^4.5.1",
+    "next": "^9.1.1",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
+  }
+}

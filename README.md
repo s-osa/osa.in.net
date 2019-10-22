@@ -1,3 +1,9 @@
-# https://osa.in.net
+https://osa.in.net/
 
-![](https://codebuild.us-east-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiK3NiQnZ4OGV4M3E0eHFBMzJLNFUxM2Frd09oNkxNK0xEQVl4NXEyblNSRlJFQiswYUxJTDlyME9NREVuc25SdFRaWlI5SUp3L3ptR1laSDVTL0ZoRUpjPSIsIml2UGFyYW1ldGVyU3BlYyI6IlhhWHpuYkZzWFd5QTNSSW4iLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=master)
+## Deploy
+
+```sh
+yarn run build
+yarn run export
+aws s3 cp out/ s3://osa.in.net/ --recursive
+```
