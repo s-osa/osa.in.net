@@ -17,7 +17,11 @@ import {
 import OpenInNewIcon from '@material-ui/icons/OpenInNew';
 
 const useStyles = makeStyles((theme) => ({
+  title: {
+    margin: theme.spacing(0, 2),
+  },
   paper: {
+    margin: theme.spacing(1),
     padding: theme.spacing(2, 2),
     marginBottom: theme.spacing(3),
   },
@@ -45,7 +49,7 @@ export default function Index() {
         <title>osa.in.net</title>
       </Head>
 
-      <Typography variant="h4" component="h2" gutterBottom>
+      <Typography variant="h4" component="h2" gutterBottom className={classes.title}>
         osa.in.net
       </Typography>
 
