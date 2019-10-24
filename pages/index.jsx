@@ -2,13 +2,14 @@ import React from 'react';
 import {makeStyles} from '@material-ui/core/styles';
 
 import {
+  Avatar,
   Container,
-  Paper,
   IconButton,
   List,
   ListItem,
-  ListItemText,
   ListItemSecondaryAction,
+  ListItemText,
+  Paper,
   Typography,
 } from '@material-ui/core';
 
@@ -51,6 +52,7 @@ export default function Index() {
         <List dense="true">
           <ListItem>
             <ListItemText primary="Name" secondary="OSA Shunsuke" primaryTypographyProps={{variant: "caption", color: "textSecondary"}} secondaryTypographyProps={{variant: "body1", color: "textPrimary"}} />
+            <Avatar alt="OSA Shunsuke avatar" src="/images/icon.png" />
           </ListItem>
           <ListItem>
             <ListItemText primary="Location" secondary="Tokyo, Japan" primaryTypographyProps={{variant: "caption", color: "textSecondary"}} secondaryTypographyProps={{variant: "body1", color: "textPrimary"}} />
