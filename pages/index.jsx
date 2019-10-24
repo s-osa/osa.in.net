@@ -1,4 +1,5 @@
 import React from 'react';
+import Head from 'next/head';
 import {makeStyles} from '@material-ui/core/styles';
 
 import {
@@ -40,6 +41,10 @@ export default function Index() {
 
   return (
     <Container maxWidth="sm" className={classes.container}>
+      <Head>
+        <title>osa.in.net</title>
+      </Head>
+
       <Typography variant="h4" component="h2" gutterBottom>
         osa.in.net
       </Typography>
