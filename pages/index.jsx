@@ -130,7 +130,7 @@ export default function Index() {
 
         <List dense="true">
           <ListItem>
-            <ListItemText primary="株式会社アグリゲート CTO" secondary="2019-01-01/now" />
+            <ListItemText primary="株式会社アグリゲート CTO" secondary="2019-01-01/2020-01-31" />
           </ListItem>
           <ListItem>
             <ListItemText primary="クックパッド株式会社 ソフトウェアエンジニア" secondary="2016-04-01/2018-12-31" />
