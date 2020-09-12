@@ -3,7 +3,6 @@ import { makeStyles } from "@material-ui/core/styles"
 
 import {
   Avatar,
-  Container,
   IconButton,
   List,
   ListItem,
@@ -15,19 +14,13 @@ import {
 
 import OpenInNewIcon from "@material-ui/icons/OpenInNew"
 
-import Head from "../components/head"
+import Layout from "../components/Layout"
 
 const useStyles = makeStyles(theme => ({
-  title: {
-    margin: theme.spacing(0, 2),
-  },
   paper: {
     margin: theme.spacing(1),
     padding: theme.spacing(2, 2),
     marginBottom: theme.spacing(3),
-  },
-  container: {
-    padding: theme.spacing(2, 0),
   },
 }))
 
@@ -50,18 +43,7 @@ export default function Index() {
   const classes = useStyles()
 
   return (
-    <Container maxWidth="sm" className={classes.container}>
-      <Head />
-
-      <Typography
-        variant="h4"
-        component="h2"
-        gutterBottom
-        className={classes.title}
-      >
-        osa.in.net
-      </Typography>
-
+    <Layout>
       <Paper className={classes.paper}>
         <Typography variant="h5" component="h3">
           Who am I?
@@ -321,6 +303,6 @@ export default function Index() {
           </ListItem>
         </List>
       </Paper>
-    </Container>
+    </Layout>
   )
 }
