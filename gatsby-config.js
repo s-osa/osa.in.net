@@ -6,5 +6,14 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [`gatsby-plugin-material-ui`, `gatsby-plugin-react-helmet`],
+  plugins: [
+    `gatsby-plugin-material-ui`,
+    `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-s3`,
+      options: {
+        bucketName: "osa.in.net",
+      },
+    },
+  ],
 }
