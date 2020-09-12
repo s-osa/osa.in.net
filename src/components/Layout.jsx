@@ -20,7 +20,7 @@ export default function Layout({ children, title }) {
       <Head title={title} />
 
       <Typography
-        variant="h4"
+        variant="h5"
         component="h2"
         gutterBottom
         className={classes.title}
