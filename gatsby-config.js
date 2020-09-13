@@ -15,5 +15,12 @@ module.exports = {
         bucketName: "osa.in.net",
       },
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-51724899-4",
+        respectDNT: true,
+      },
+    },
   ],
 }
