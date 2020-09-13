@@ -269,6 +269,42 @@ export default function Index() {
 
       <Paper className={classes.paper}>
         <Typography variant="h5" component="h3">
+          Clients
+        </Typography>
+
+        <List dense="true">
+          <ListItem>
+            <ListItemText primary="株式会社アグリゲート" />
+            <ListItemExternalLinkIcon href="https://agrigate.co.jp/" />
+          </ListItem>
+          <ListItem>
+            <ListItemText primary="株式会社リフカム" />
+            <ListItemExternalLinkIcon href="https://about.refcome.com/" />
+          </ListItem>
+          <ListItem>
+            <ListItemText primary="iscream株式会社" />
+            <ListItemExternalLinkIcon href="https://www.wantedly.com/companies/company_2338507" />
+          </ListItem>
+          <ListItem>
+            <ListItemText primary="UZRA株式会社" />
+          </ListItem>
+          <ListItem>
+            <ListItemText primary="レンティオ株式会社" />
+            <ListItemExternalLinkIcon href="https://www.rentio.co.jp/" />
+          </ListItem>
+          <ListItem>
+            <ListItemText primary="クックパッド株式会社" />
+            <ListItemExternalLinkIcon href="https://info.cookpad.com/" />
+          </ListItem>
+          <ListItem>
+            <ListItemText primary="株式会社バルーン" />
+            <ListItemExternalLinkIcon href="https://www.wantedly.com/companies/balloonfrom" />
+          </ListItem>
+        </List>
+      </Paper>
+
+      <Paper className={classes.paper}>
+        <Typography variant="h5" component="h3">
           Certificates
         </Typography>
 
