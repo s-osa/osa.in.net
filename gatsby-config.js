@@ -7,7 +7,7 @@
 module.exports = {
   /* Your site config here */
   plugins: [
-    `gatsby-plugin-material-ui`,
+    `gatsby-theme-material-ui`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-s3`,

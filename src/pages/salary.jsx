@@ -12,6 +12,7 @@ import {
 } from "@material-ui/core"
 
 import Layout from "../components/Layout"
+import PageHeading from "../components/PageHeading"
 
 const useStyles = makeStyles(theme => ({
   paper: {
@@ -32,7 +33,9 @@ export default function Index() {
   const classes = useStyles()
 
   return (
-    <Layout title={"salary"}>
+    <Layout title={"Salary"}>
+      <PageHeading text={"Salary"} />
+
       <TableContainer component={Paper} className={classes.paper}>
         <Table>
           <TableHead>

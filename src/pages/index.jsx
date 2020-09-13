@@ -1,20 +1,20 @@
 import React from "react"
+import { Link } from "gatsby-theme-material-ui"
 import { makeStyles } from "@material-ui/core/styles"
 
 import {
   Avatar,
-  IconButton,
   List,
   ListItem,
-  ListItemSecondaryAction,
   ListItemText,
   Paper,
   Typography,
 } from "@material-ui/core"
 
-import OpenInNewIcon from "@material-ui/icons/OpenInNew"
-
 import Layout from "../components/Layout"
+import ListItemExternalLinkIcon from "../components/ListItemExternalLinkIcon"
+
+import { ChevronRight } from "@material-ui/icons"
 
 const useStyles = makeStyles(theme => ({
   paper: {
@@ -23,21 +23,6 @@ const useStyles = makeStyles(theme => ({
     marginBottom: theme.spacing(3),
   },
 }))
-
-function ListItemExternalLinkIcon(props) {
-  return (
-    <ListItemSecondaryAction>
-      <IconButton
-        edge="end"
-        target="_blank"
-        rel="noopener noreferrer"
-        {...props}
-      >
-        <OpenInNewIcon />
-      </IconButton>
-    </ListItemSecondaryAction>
-  )
-}
 
 export default function Index() {
   const classes = useStyles()
@@ -269,38 +254,18 @@ export default function Index() {
 
       <Paper className={classes.paper}>
         <Typography variant="h5" component="h3">
-          Clients
+          Freelance
         </Typography>
 
-        <List dense="true">
-          <ListItem>
-            <ListItemText primary="株式会社アグリゲート" />
-            <ListItemExternalLinkIcon href="https://agrigate.co.jp/" />
-          </ListItem>
-          <ListItem>
-            <ListItemText primary="株式会社リフカム" />
-            <ListItemExternalLinkIcon href="https://about.refcome.com/" />
-          </ListItem>
-          <ListItem>
-            <ListItemText primary="iscream株式会社" />
-            <ListItemExternalLinkIcon href="https://www.wantedly.com/companies/company_2338507" />
-          </ListItem>
-          <ListItem>
-            <ListItemText primary="UZRA株式会社" />
-          </ListItem>
-          <ListItem>
-            <ListItemText primary="レンティオ株式会社" />
-            <ListItemExternalLinkIcon href="https://www.rentio.co.jp/" />
-          </ListItem>
-          <ListItem>
-            <ListItemText primary="クックパッド株式会社" />
-            <ListItemExternalLinkIcon href="https://info.cookpad.com/" />
-          </ListItem>
-          <ListItem>
-            <ListItemText primary="株式会社バルーン" />
-            <ListItemExternalLinkIcon href="https://www.wantedly.com/companies/balloonfrom" />
-          </ListItem>
-        </List>
+        <Typography variant={"body2"}>
+          Web アプリケーション開発を中心に個人でも仕事を受けています。
+        </Typography>
+
+        <Link to={"/freelance/"}>
+          <Typography align={"right"}>
+            <ChevronRight />
+          </Typography>
+        </Link>
       </Paper>
 
       <Paper className={classes.paper}>

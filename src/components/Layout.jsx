@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link } from "gatsby-theme-material-ui"
 import { makeStyles } from "@material-ui/core/styles"
 import { Container, Typography } from "@material-ui/core"
 import Head from "./Head"
@@ -26,8 +26,8 @@ export default function Layout({ children, title }) {
 
       <Link to={"/"} className={classes.titleLink}>
         <Typography
-          variant="h5"
-          component="h2"
+          variant="h6"
+          component="h1"
           gutterBottom
           className={classes.title}
         >
