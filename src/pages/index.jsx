@@ -151,6 +151,21 @@ export default function Index() {
           </ListItem>
           <ListItem>
             <ListItemText
+              primary="Blog"
+              secondary="blog.osa.in.net"
+              primaryTypographyProps={{
+                variant: "caption",
+                color: "textSecondary",
+              }}
+              secondaryTypographyProps={{
+                variant: "body1",
+                color: "textPrimary",
+              }}
+            />
+            <ListItemExternalLinkIcon href="https://blog.osa.in.net/" />
+          </ListItem>
+          <ListItem>
+            <ListItemText
               primary="Speaker Deck"
               secondary="osa"
               primaryTypographyProps={{
