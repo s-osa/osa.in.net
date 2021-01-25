@@ -1,8 +1,16 @@
-https://osa.in.net/
+# blog.osa.in.net
+
+The source of https://osa.in.net/.
+
+## Development
+
+```fish
+yarn install
+yarn develop
+```
 
 ## Deploy
 
-```sh
-$ yarn build
-$ yarn deploy
+```fish
+yarn build; and envchain <namespace> yarn deploy -y
 ```
