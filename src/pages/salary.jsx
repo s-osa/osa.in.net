@@ -22,6 +22,7 @@ const useStyles = makeStyles(theme => ({
 }))
 
 const rows = [
+  { year: 2021, base: 7500000, bonus: 0 },
   { year: 2020, base: 7500000, bonus: 0 },
   { year: 2019, base: 9600000, bonus: 0 },
   { year: 2018, base: 5802000, bonus: 200000 },
