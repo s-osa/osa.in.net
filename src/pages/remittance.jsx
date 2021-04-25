@@ -1,16 +1,7 @@
 import React from "react"
 import { makeStyles } from "@material-ui/core/styles"
 
-import {
-  Paper,
-  Table,
-  TableBody,
-  TableCell,
-  TableContainer,
-  TableHead,
-  TableRow,
-  Typography,
-} from "@material-ui/core"
+import { Paper, Typography } from "@material-ui/core"
 
 import Layout from "../components/Layout"
 import PageHeading from "../components/PageHeading"
