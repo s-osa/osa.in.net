@@ -23,12 +23,13 @@ const methods = [
     description: "住信SBIネット銀行 ブドウ支店（102） 普通 4821329",
   },
   {
-    name: "Kyash",
-    description: "sosa",
+    name: "Amazon ギフトカード",
+    url: "https://www.amazon.co.jp/dp/B004N3APGO",
+    description: "Email: hhelibebcnofnenamg+gift@gmail.com",
   },
   {
-    name: "Amazon ギフトカード",
-    description: "hhelibebcnofnenamg@gmail.com",
+    name: "Kyash",
+    description: "ID: sosa",
   },
 ]
 
@@ -45,9 +46,12 @@ export default function Index() {
             <Typography variant="h5" component="h3">
               {method.name}
             </Typography>
-            <Typography variant="body1">
-              {method.description}
-            </Typography>
+            {method.url && (
+              <a href={method.url} target="_blank" rel="noreferrer noopener">
+                <Typography variant="body1">{method.url}</Typography>
+              </a>
+            )}
+            <Typography variant="body1">{method.description}</Typography>
           </div>
         ))}
       </Paper>
