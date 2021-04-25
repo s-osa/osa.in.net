@@ -12,7 +12,7 @@ const useStyles = makeStyles(theme => ({
     padding: theme.spacing(2, 2),
     marginBottom: theme.spacing(3),
   },
-  remittanceMethod: {
+  paymentMethod: {
     paddingBottom: theme.spacing(2),
   },
 }))
@@ -37,12 +37,12 @@ export default function Index() {
   const classes = useStyles()
 
   return (
-    <Layout title={"Remittance"}>
-      <PageHeading text={"Remittance"} />
+    <Layout title={"Payment"}>
+      <PageHeading text={"Payment"} />
 
       <Paper className={classes.paper}>
         {methods.map(method => (
-          <div key={method.name} className={classes.remittanceMethod}>
+          <div key={method.name} className={classes.paymentMethod}>
             <Typography variant="h5" component="h3">
               {method.name}
             </Typography>
