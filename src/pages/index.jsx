@@ -137,21 +137,6 @@ export default function Index() {
           <ListItem>
             <ListItemText
               primary="Blog"
-              secondary="ネットの海の片隅で"
-              primaryTypographyProps={{
-                variant: "caption",
-                color: "textSecondary",
-              }}
-              secondaryTypographyProps={{
-                variant: "body1",
-                color: "textPrimary",
-              }}
-            />
-            <ListItemExternalLinkIcon href="https://osa.hatenablog.com/" />
-          </ListItem>
-          <ListItem>
-            <ListItemText
-              primary="Blog"
               secondary="blog.osa.in.net"
               primaryTypographyProps={{
                 variant: "caption",
@@ -163,6 +148,21 @@ export default function Index() {
               }}
             />
             <ListItemExternalLinkIcon href="https://blog.osa.in.net/" />
+          </ListItem>
+          <ListItem>
+            <ListItemText
+              primary="Blog"
+              secondary="ネットの海の片隅で"
+              primaryTypographyProps={{
+                variant: "caption",
+                color: "textSecondary",
+              }}
+              secondaryTypographyProps={{
+                variant: "body1",
+                color: "textPrimary",
+              }}
+            />
+            <ListItemExternalLinkIcon href="https://osa.hatenablog.com/" />
           </ListItem>
           <ListItem>
             <ListItemText
