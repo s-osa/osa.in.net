@@ -8,7 +8,7 @@ import {
   TableCell,
   TableContainer,
   TableHead,
-  TableRow,
+  TableRow
 } from "@material-ui/core"
 
 import Layout from "../components/Layout"
@@ -17,17 +17,18 @@ import PageHeading from "../components/PageHeading"
 const useStyles = makeStyles(theme => ({
   paper: {
     margin: theme.spacing(1),
-    marginBottom: theme.spacing(3),
-  },
+    marginBottom: theme.spacing(3)
+  }
 }))
 
 const rows = [
+  { year: 2022, base: 8001000, bonus: 0 },
   { year: 2021, base: 7500000, bonus: 0 },
   { year: 2020, base: 7500000, bonus: 0 },
   { year: 2019, base: 9600000, bonus: 0 },
   { year: 2018, base: 5802000, bonus: 200000 },
   { year: 2017, base: 4728000, bonus: 50000 },
-  { year: 2016, base: 4500000, bonus: 0 },
+  { year: 2016, base: 4500000, bonus: 0 }
 ]
 
 export default function Index() {
