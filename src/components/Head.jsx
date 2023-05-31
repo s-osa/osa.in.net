@@ -1,11 +1,13 @@
 import React from "react"
 import Helmet from "react-helmet"
 
-export default props => (
+const head = props => (
   <Helmet
     htmlAttributes={{
-      lang: "ja",
+      lang: "ja"
     }}
     title={(props.title ? props.title + " - " : "") + "osa.in.net"}
   />
 )
+
+export default head
