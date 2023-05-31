@@ -292,7 +292,7 @@ export default function Index() {
           <ListItem>
             <ListItemText
               primary="フォークリフト運転技能講習修了"
-              secondary="2023-09-11"
+              secondary="2022-09-11"
             />
           </ListItem>
           <ListItem>
