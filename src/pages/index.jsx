@@ -54,7 +54,7 @@ export default function Index() {
           <ListItem>
             <ListItemText
               primary="Location"
-              secondary="Tokyo, Japan"
+              secondary="Yokohama, Japan"
               primaryTypographyProps={{
                 variant: "caption",
                 color: "textSecondary",
@@ -248,7 +248,7 @@ export default function Index() {
         <List dense="true">
           <ListItem>
             <ListItemText
-              primary="クックパッド株式会社 ソフトウェアエンジニア"
+              primary="クックパッド株式会社 ソフトウェアエンジニア/マネージャ"
               secondary="2020-06-01/Now"
             />
           </ListItem>
@@ -289,6 +289,18 @@ export default function Index() {
         </Typography>
 
         <List dense="true">
+          <ListItem>
+            <ListItemText
+              primary="フォークリフト運転技能講習修了"
+              secondary="2023-09-11"
+            />
+          </ListItem>
+          <ListItem>
+            <ListItemText
+              primary="知識検定 1級"
+              secondary="2022-03-31"
+            />
+          </ListItem>
           <ListItem>
             <ListItemText
               primary="AWS Certified Solutions Architect - Associate"
