@@ -28,6 +28,10 @@ const methods = [
     description: "Email: hhelibebcnofnenamg+gift@gmail.com",
   },
   {
+    name: "PayPay",
+    description: "ID: s_osa",
+  },
+  {
     name: "Kyash",
     description: "ID: sosa",
   },
