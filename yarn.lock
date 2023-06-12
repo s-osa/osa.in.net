@@ -5611,6 +5611,14 @@ gatsby-plugin-google-analytics@^5.10.0:
     minimatch "^3.1.2"
     web-vitals "^1.1.2"
 
+gatsby-plugin-google-gtag@^5.10.0:
+  version "5.10.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-gtag/-/gatsby-plugin-google-gtag-5.10.0.tgz#94117a6b4e92ece63a25f513f8569f47a9c3d597"
+  integrity sha512-GZRLaDhEV7QtGsyMkO7sdp7grcLiTQm9LNFjPLvGTRfm+H3tM782yVt3BUIBLqpex/ST+Sr0Om//6FJ98Ji3BA==
+  dependencies:
+    "@babel/runtime" "^7.20.13"
+    minimatch "^3.1.2"
+
 gatsby-plugin-material-ui@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-material-ui/-/gatsby-plugin-material-ui-3.0.1.tgz#eed9eb22a045ead1d0aa2f697f8fadd834891f27"
