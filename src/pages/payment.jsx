@@ -31,10 +31,6 @@ const methods = [
     name: "PayPay",
     description: "ID: s_osa",
   },
-  {
-    name: "Kyash",
-    description: "ID: sosa",
-  },
 ]
 
 export default function Index() {
