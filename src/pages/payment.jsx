@@ -20,7 +20,7 @@ const useStyles = makeStyles(theme => ({
 const methods = [
   {
     name: "銀行口座",
-    description: "住信SBIネット銀行 ブドウ支店（102） 普通 4821329",
+    description: "住信SBIネット銀行（0038） ブドウ支店（102） 普通 4821329",
   },
   {
     name: "Amazon ギフトカード",
