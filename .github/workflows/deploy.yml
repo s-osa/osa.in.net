@@ -11,11 +11,9 @@ jobs:
       AWS_SECRET_ACCESS_KEY: ${{secrets.AWS_SECRET_ACCESS_KEY}}
     steps:
       - uses: "actions/checkout@v3"
-      - run: "corepack enable"
       - uses: "actions/setup-node@v3"
         with:
           node-version-file: ".node-version"
-          cache: "yarn"
       - run: "corepack enable"
       - run: "yarn install --immutable"
       - run: "yarn build"
