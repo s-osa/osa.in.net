@@ -16,6 +16,7 @@ jobs:
         with:
           node-version-file: ".node-version"
           cache: "yarn"
+      - run: "corepack enable"
       - run: "yarn install --immutable"
       - run: "yarn build"
       - run: "yarn deploy"
